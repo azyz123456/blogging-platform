@@ -1,0 +1,55 @@
+.quantum__story--container {
+    background: #2C2F48;
+    min-height: 100vh;
+    padding: 2rem 3rem;
+    color: #ffffff;
+}
+
+.quantum__story--container a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.quantum__story--container .content__holder {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quantum__story--container .content__holder .story__title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    line-height: 1.5;
+    max-width: 70%;
+    overflow-wrap: break-word;
+    text-align: center;
+    hyphens: auto;
+}
+
+.quantum__story--container .content__holder .profile, .quantum__story--container .content__holder .creater__header {
+    display: flex;
+    align-items: center;
+}
+
+.quantum__story--container .content__holder .creater__header  {
+    font-size: 1.7rem;
+}
+
+.quantum__story--container .content__holder .profile .outer__circle{
+    border-radius: 50%;
+    height: 5rem;
+    width: 5rem;
+}
+
+.quantum__story--container .content__holder .story__description {
+    margin-top: 5rem;
+    font-size: 1.75rem;
+    max-width: 60%;
+    text-align: justify;
+}
+
+.quantum__story--container .content__holder .story__description p {
+    margin-bottom: 2rem;
+    line-height: 2;
+}

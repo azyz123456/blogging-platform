@@ -1,0 +1,57 @@
+.user__feed--container a,
+.user__feed--container p{
+    text-decoration: none;
+    color: #f3f1f1;
+}
+
+.user__feed {
+    padding: 1.5rem;
+}
+
+.user__feed--container {
+    padding: 1.5rem;
+    background: #2C2F48;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.user__feed--profile {
+    display: flex;
+    align-items: center;
+}
+
+.user__feed--name {
+    display: inline-block;
+}
+
+.feed__name--username {
+    margin-left: 1.3rem;
+}
+
+.user__feed--title {
+    display: inline-block;
+}
+
+.user__feed--content {
+    margin-top: 1rem;
+}
+
+.user__feed--title {
+    margin-bottom: 1rem;
+}
+
+.user__feed--description p {
+    font-size: 1.5rem;
+}
+
+.feed__image {
+    width: 15rem;
+    height: 15rem;
+}
+
+.feed__content--image {
+    overflow: hidden;
+    border-radius: 0.75rem;
+    object-fit: cover;
+}

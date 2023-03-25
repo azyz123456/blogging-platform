@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+*, *::after, *::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border-width: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.focus:focus{
+  outline: none;
+}
+
+.inlinefont::placeholder {
+  font-family: "Quicksand", sans-serif;
+}
+
+.error-field {
+  font-size: 1.7rem;
+  height: 1.8rem;
+  color:rgb(236, 102, 102);
+  font-weight: bold;
+}
+
+.submit--button {
+  background: radial-gradient(73.23% 106% at 34.94% 108.33%, #d966e6 0%, #8c68f8 100%);
+}
+
+.link--button {
+  background: radial-gradient(73.23% 106% at 34.94% 108.33%, #597dd6 0%, #8c68f8 100%);
+}
+
+.submit--button,
+.link--button {
+  padding: 1rem 2rem;
+  color: #ffffff;
+  border-radius: 2rem;
+  font-size: 1.75rem;
+  cursor: pointer;
+  font-weight: 600;
+  text-align: center;
+  border: none;
+  transition: all .3s ease-out;
+  text-decoration: none;
+}
+
+.join--button {
+  padding: .8rem 1.5rem;
+  color: #ffffff;
+  border-radius: 2rem;
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 600;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+  background: radial-gradient(73.23% 106% at 34.94% 108.33%, #597dd6 0%, #8c68f8 100%);
+}
+
+button {  
+  font-family: "Quicksand", sans-serif;
+}
+
+.link--button:hover,
+.submit--button:hover {
+  transform: translateY(-3px);
+}
+
+.text--color {
+  background: radial-gradient(73.23% 106% at 34.94% 108.33%, #fad0ff 0%, #8c68f8 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.pointer {
+  cursor: pointer;
+}
